@@ -34,8 +34,8 @@ const Navbar = () => {
           <img src={logo} alt="logo" className="w-20 h-20 object-contain " />
         </Link>
 
-        <div className=" hidden xl:flex flex-row ">
-          <div className="hidden xl:flex flex-row justify-between gap-16 pr-40">
+        <div className=" hidden xl:flex flex-row w-full justify-between ">
+          <div className="hidden xl:flex flex-row justify-between ml-10 gap-16">
             {navLinks.map((link) => (
               <div
                 key={link.id}

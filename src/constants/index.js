@@ -1,299 +1,123 @@
 import {
-  react,
-  mindx,
-  js,
-  responsive,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  mx,
-  dx,
-  iuh,
-  tedtok,
-  youtube,
-  dasboard,
-  threejs,
-  tedblog,
-  tedquote,
+  typea,
+  typeb,
+  typec,
+  security,
+  lamp,
+  cctv,
+  check1,
+  check2,
+  check3,
+  facebook,
+  twitter,
+  whatsapp,
+  instagram,
 } from '../assets';
 
 export const navLinks = [
+  {
+    id: '',
+    title: 'Home',
+  },
   {
     id: 'about',
     title: 'About',
   },
   {
-    id: 'work',
-    title: 'Work',
+    id: 'access-control',
+    title: 'Access Control',
   },
   {
-    id: 'contact',
-    title: 'Contact',
+    id: 'digital',
+    title: 'Digital',
   },
 ];
 
 const services = [
   {
-    title: 'Javascript',
-    icon: js,
-    link: 'https://raw.githubusercontent.com/callmeteddy17/portfolio/main/src/assets/js.jpg',
+    title: 'type a',
+    icon: typea,
+    sub: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   },
   {
-    title: 'Responsive Design',
-    icon: responsive,
-    link: 'https://raw.githubusercontent.com/callmeteddy17/portfolio/main/src/assets/responsive.jpg',
+    title: 'type b',
+    icon: typeb,
+    sub: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   },
   {
-    title: 'React JS',
-    icon: react,
-    link: 'https://raw.githubusercontent.com/callmeteddy17/portfolio/main/src/assets/react.jpg',
-  },
-  {
-    title: 'Code Intensive',
-    icon: mindx,
-    link: 'https://raw.githubusercontent.com/callmeteddy17/portfolio/main/src/assets/mindx.jpg',
+    title: 'type c',
+    icon: typec,
+    sub: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   },
 ];
 
 const technologies = [
   {
-    name: 'HTML 5',
-    icon: html,
+    name: 'check1',
+    icon: check1,
   },
   {
-    name: 'CSS 3',
-    icon: css,
+    name: 'check2',
+    icon: check2,
   },
   {
-    name: 'JavaScript',
-    icon: javascript,
-  },
-  {
-    name: 'TypeScript',
-    icon: typescript,
-  },
-  {
-    name: 'React JS',
-    icon: reactjs,
-  },
-  // {
-  //   name: 'Redux Toolkit',
-  //   icon: redux,
-  // },
-  {
-    name: 'Tailwind CSS',
-    icon: tailwind,
-  },
-  {
-    name: 'Node JS',
-    icon: nodejs,
-  },
-  {
-    name: 'MongoDB',
-    icon: mongodb,
-  },
-  {
-    name: 'Three JS',
-    icon: threejs,
-  },
-  {
-    name: 'git',
-    icon: git,
-  },
-  // {
-  //   name: 'figma',
-  //   icon: figma,
-  // },
-  // {
-  //   name: 'docker',
-  //   icon: docker,
-  // },
-];
-
-const experiences = [
-  {
-    title: 'Eyes recognition device for driver',
-    company_name: 'Industrial University of Ho Chi Minh city.',
-    icon: iuh,
-    iconBg: '#E6DEDD',
-    date: 'Nov 2021 – Apr 2022',
-    points: [
-      'First time learns about coding with Python and handle all problems about programing device.',
-      'Make project planning and division of task, find solutions and problems.',
-      'Support members to understand how the device works and how to use device.',
-      'Led team to find out the best way to save cost, increase accuracy of the device.',
-    ],
-  },
-  {
-    title: 'Sale Man',
-    company_name: 'DatXanh Premium.',
-    icon: dx,
-    iconBg: '#E6DEDD',
-    date: 'Mar 2022 – Sep 2022',
-    points: [
-      'Improve communication skills, problem solving and work under pressure.',
-      'Find solutions to increase sales and potential customers.',
-    ],
-  },
-  {
-    title: 'Youtube Clone',
-    company_name: 'MindX Technology School.',
-    icon: mx,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2022 - Jan 2023',
-    points: [
-      'Make decision in choosing project idea, find solutions for project problems and fix it.',
-      'Finish project in time with perfectly complete responsive design and function in the project.',
-      'Support members to understand all functions, and problems we have.',
-    ],
+    name: 'check3',
+    icon: check3,
   },
 ];
 
-const testimonials = [
+const contact = [
   {
-    testimonial:
-      'I thought it was impossible for a newbie like you to do this program, You should be a programming engineer.',
-    name: 'Kyle Pham',
-    designation: 'Senior Developer',
-    company: 'Joblogic',
+    icon: facebook,
   },
   {
-    testimonial: 'I see you have a good background to learn it, keep moving!',
-    name: 'Hieu Dang',
-    designation: 'Mentor',
-    company: 'MindX Technology School',
+    icon: twitter,
   },
   {
-    testimonial:
-      'I think you are suitable for programming work, you learn very quickly and create a very good running model.',
-    name: 'M.Si Do Si Hai',
-    designation: 'Lecturers',
-    company: 'Industrial University of Ho Chi Minh city',
+    icon: whatsapp,
+  },
+  {
+    icon: instagram,
   },
 ];
 
-const projects = [
+const tech = [
   {
-    name: 'Youtube Clone',
-    description:
-      'Video website application base on Youtube, which help users can see video from Youtube',
-    tags: [
-      {
-        name: '#react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: '#rapidAPI',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: '#MUI',
-        color: 'blue-text-gradient',
-      },
-    ],
-    image: youtube,
-    source_code_link: 'https://github.com/callmeteddy17/clone-youtube.git',
-    link: 'https://starlit-frangipane-d7db5e.netlify.app/',
+    infomation:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ',
+    name: 'SECURITY SYSTEM',
+
+    image: security,
   },
   {
-    name: 'Dashboard',
-    description:
-      'Web application that enables users to see dashboard infomations',
-    tags: [
-      {
-        name: '#react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: '#syncfusion',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: '#tailwind',
-        color: 'blue-text-gradient',
-      },
-    ],
-    image: dasboard,
-    source_code_link: 'https://github.com/callmeteddy17/ted-dashboard.git',
-    link: 'https://fascinating-licorice-010d9b.netlify.app/',
+    infomation:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ',
+    name: 'SMART LAMP',
+
+    image: lamp,
   },
   {
-    name: 'Tedtok',
-    description:
-      'Base on Tiktok UI, TedTok enable users upload, comment, like and watch videos.',
-    tags: [
-      {
-        name: '#nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: '#sanity',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: '#tailwind',
-        color: 'blue-text-gradient',
-      },
-    ],
-    image: tedtok,
-    source_code_link: 'https://github.com/callmeteddy17/ted-tok.git',
-    link: 'https://ted-tok.vercel.app/',
-  },
-  {
-    name: 'TedBlog',
-    description: 'TedBlog is the website which can read, edit, share blogs ',
-    tags: [
-      {
-        name: '#nodejs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: '#mongodb',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: '#expressjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: '#reactjs',
-        color: 'blue-text-gradient',
-      },
-    ],
-    image: tedblog,
-    source_code_link: 'https://github.com/callmeteddy17/ted-blog',
-    link: 'https://tedblog.vercel.app/',
-  },
-  {
-    name: 'Tedquote',
-    description: 'TedQuote is the place for everyone to share meaning quotes',
-    tags: [
-      {
-        name: '#nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: '#googleauth',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: '#tailwind',
-        color: 'blue-text-gradient',
-      },
-    ],
-    image: tedquote,
-    source_code_link: 'https://github.com/callmeteddy17/tedquoteshare',
-    link: 'https://tedquoteshare.vercel.app/',
+    infomation:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ',
+    name: 'CCTV CONTROL',
+
+    image: cctv,
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const about = [
+  {
+    title: 'HOME',
+    info: ['Lorem ipsum', 'Lorem ipsum', 'Lorem ipsum', 'Lorem ipsum'],
+  },
+  {
+    title: 'CONTACT',
+    info: ['Lorem ipsum', 'Lorem ipsum', 'Lorem ipsum', 'Lorem ipsum'],
+  },
+  {
+    title: 'SERVICE',
+    info: ['Lorem ipsum', 'Lorem ipsum', 'Lorem ipsum', 'Lorem ipsum'],
+  },
+];
+
+export { services, technologies, contact, tech, about };

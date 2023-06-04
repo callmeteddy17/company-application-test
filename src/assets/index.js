@@ -1,64 +1,47 @@
 import logo from './logo.png';
-import js from './js.jpg';
-import mindx from './mindx.jpg';
-import responsive from './responsive.jpg';
-import react from './react.jpg';
-import github from './github.png';
+import heroHouse from './hero-house.png';
+import heroPhone from './hero-phone.png';
+import heroPhone2 from './hero-phone2.png';
+import bigPhone from './big-phone.png';
+import aboutus from './about-phone.png';
+import typea from './typea.png';
+import typeb from './typeb.png';
+import typec from './typec.png';
+import cctv from './cctv.png';
+import lamp from './lamp.png';
+import instagram from './Instagram.png';
+import twitter from './Twitter.png';
+import whatsapp from './WhatsApp.png';
+import facebook from './Facebook.png';
+
+import security from './security.png';
+import check1 from './check1.png';
+import check2 from './check2.png';
+import check3 from './check3.png';
+
 import menu from './menu.svg';
 import close from './close.svg';
 
-import css from './tech/css.png';
-import docker from './tech/docker.png';
-import figma from './tech/figma.png';
-import git from './tech/git.png';
-import html from './tech/html.png';
-import javascript from './tech/javascript.png';
-import mongodb from './tech/mongodb.png';
-import nodejs from './tech/nodejs.png';
-import reactjs from './tech/reactjs.png';
-import redux from './tech/redux.png';
-import tailwind from './tech/tailwind.png';
-import typescript from './tech/typescript.png';
-import threejs from './tech/threejs.svg';
-
-import mx from './company/mx.png';
-import iuh from './company/iuh.png';
-import dx from './company/dx.png';
-
-import dasboard from './dashboard.jpg';
-import tedtok from './tedtok.jpg';
-import youtube from './youtube.jpg';
-import tedblog from './tedblog.jpg';
-import tedquote from './tedquote.jpg';
-
 export {
   logo,
-  mindx,
-  js,
-  responsive,
-  react,
-  github,
   menu,
   close,
-  css,
-  docker,
-  figma,
-  git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
-  mx,
-  iuh,
-  dx,
-  dasboard,
-  tedtok,
-  youtube,
-  tedblog,
-  tedquote,
+  heroHouse,
+  heroPhone,
+  heroPhone2,
+  typea,
+  typeb,
+  typec,
+  security,
+  lamp,
+  cctv,
+  bigPhone,
+  aboutus,
+  check1,
+  check2,
+  check3,
+  instagram,
+  whatsapp,
+  facebook,
+  twitter,
 };

@@ -18,10 +18,12 @@ const Footer = () => {
         </motion.div>
         <motion.div
           variants={slideIn('left', 'tween', 0.2, 1)}
-          className="flex gap-20 ">
+          className="md:flex-row flex gap-20 flex-col items-center">
           {about.map((item, i) => (
-            <div className="flex flex-col" key={i}>
-              <h2 className="text-3xl font-semibold">{item.title}</h2>
+            <div className="flex flex-col items-center" key={i}>
+              <h2 className="text-3xl font-semibold text-center">
+                {item.title}
+              </h2>
               <ul className="mt-6 list-none">
                 {item.info.map((info, index) => (
                   <li className=" text-lg cursor-pointer w-full" key={index}>
